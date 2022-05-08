@@ -1,0 +1,16 @@
+.wrapper .content-wrapper {
+    min-height: calc(100vh - calc(3.5rem + 1px) - calc(0.5rem + 1px)) !important;
+}
+
+.table-wrap {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-wrap td {
+    word-wrap: break-word;
+}
+
+.alert_text {
+    color: red
+}
