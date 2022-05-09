@@ -142,6 +142,7 @@
               <div class="hotel-room-body">
                 <h3 class="heading mb-0"><a href="#">{{ucwords($room->room_type)}}</a></h3>
                 <strong class="price">{{number_format($room->price)}}đ / một đêm</strong>
+                <p>{{$room->description}}</p>
               </div>
             </div>
           </div>
@@ -154,7 +155,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 mb-5 mb-md-0">
-            
+
               <div class="img-border">
                 <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
                   <span class="icon-wrap">
